@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EconD</title>
+</head>
+<style>
+  .navbar_area{
+  position: absolute;
+width: 100vw;
+height: 87px;
+left: -1px;
+top: 0px;
+
+background: #FFFFFF;
+}
+.iitrlogo{
+  position: absolute;
+width: 3.05vw;
+padding-top:100;
+left: 8.32vw;
+top: 22px;
+
+background: url(image.png);
+}
+.line{
+  position: absolute;
+width: 45px;
+height: 0px;
+left: 10.67vw;
+top: 42px;
+
+opacity: 0.2;
+border: 1px solid #000000;
+transform: rotate(90deg);
+
+}
+.dof{
+  position: absolute;
+width: 6.65vw;
+height: 18px;
+left: 13.40vw;
+top: 25px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #000000;
+}
+.deptt{
+  position: absolute;
+width: 18.30vw;
+height: 23px;
+left: 13.40vw;
+top: 40px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+
+}
+.home{
+  position: absolute;
+width: 3.05vw;
+height: 21px;
+left: 46.74vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+
+}
+.about{
+  position: absolute;
+width: 3.19vw;
+height: 21px;
+left: 52.63vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+}
+.academics{
+  position: absolute;
+width: 6.03vw;
+height: 21px;
+left: 58.46vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+}
+.research{
+  position: absolute;
+width: 4.71vw;
+height: 21px;
+left: 67.1vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+
+}
+.facilities{
+  position: absolute;
+width: 4.50vw;
+height: 21px;
+left: 74.61vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+
+}
+.events{
+  position: absolute;
+width: 3.46vw;
+height: 21px;
+left: 81.90vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+}
+.people{
+  position: absolute;
+width: 3.53vw;
+height: 21px;
+left: 88.14vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+
+}
+.faclink1{
+  position: absolute;
+width: 4.85vw;
+padding-top:37.14;
+left: 8.32vw;
+top: 127px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+
+/* Dates */
+
+color: #7B88A1;
+
+}
+.faclinkecond{
+  position: absolute;
+width: 10.26vw;
+padding-top:17.56;
+left: 13.45vw;
+top: 124px;
+
+/* Paragraph Medium */
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* Headings */
+
+color: #1B2D45;
+}
+.econdg1244{
+  position: absolute;
+width: 8.04vw;
+padding-top:100;
+left: 8.32vw;
+top: 555px;
+}
+.econdlinkhead{
+  position: absolute;
+width: 754.78vw;
+padding-top:4.81;
+left: 8.32vw;
+top: 187px;
+
+/* Heading 3 */
+
+font-family: Domaine Display Test;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+
+
+color: #1B2D45;
+
+}
+.econdg1245{
+  position: absolute;
+width: 110.12px;
+height: 116px;
+left: 1183.88px;
+top: 235px;
+}
+.econdrect{
+  position: absolute;
+width: 78.57vw;
+padding-top:35.30;
+left: 11.02vw;
+top: 265px;
+
+background: #F3F3F3;
+}
+.mainbuildingecondlarge{
+  position: absolute;
+width: 79.26vw;
+padding-top:35.52;
+left: 10.95vw;
+top: 275.5px;
+
+background: url(ayaneshu-bhardwaj-Acx3N9h-QXs-unsplash.jpg);
+filter: drop-shadow(20px 20px 29px rgba(27, 45, 69, 0.1));
+border-radius: 4px;
+}
+.econdpara1{
+  position: absolute;
+width: 54.50vw;
+padding-top:16.28;
+left: 22.67vw;
+top: 751px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+
+color: #435579;
+}
+.mainbuildingecondsmall{
+  
+position: absolute;
+width: 54.16vw;
+padding-top:24.07;
+left: 22.67vw;
+top: 934px;
+
+background: url(ayaneshu-bhardwaj-Acx3N9h-QXs-unsplash.jpg);
+border-radius: 4px;
+}
+.econdani{
+  position: absolute;
+width: 52.87vw;
+padding-top:5.90;
+left: 22.67vw;
+top: 1146px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 160%;
+/* identical to box height, or 45px */
+
+
+color: #1B2D45;
+
+}
+.econdanitext{
+  position: absolute;
+width: 52.87vw;
+padding-top:20.98;
+left: 22.67vw;
+top: 1199px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+
+color: #435579;
+}
+.econdcd{
+  position: absolute;
+width: 52.87vw;
+padding-top:5.90;
+left: 22.67vw;
+top: 1419px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 160%;
+/* identical to box height, or 45px */
+
+
+color: #1B2D45;
+
+}
+.econdcdtext{
+  position: absolute;
+width: 52.87vw;
+padding-top:29.38;
+left: 22.67vw;
+top: 1472px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+text-transform: capitalize;
+
+color: #435579;
+}
+.econdiscom{
+  position: absolute;
+width: 52.87vw;
+padding-top:5.90;
+left: 22.67vw;
+top: 1724px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 160%;
+/* identical to box height, or 45px */
+
+
+color: #1B2D45;
+}
+.econdiscomtext{
+  position: absolute;
+width: 54.50vw;
+padding-top:28.49;
+left: 22.67vw;
+top: 1777px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+text-transform: capitalize;
+
+color: #435579;
+
+}
+.econdnsstext{
+  position: absolute;
+width: 54.50vw;
+padding-top:44.78;
+left: 22.67vw;
+top: 2114px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+text-transform: capitalize;
+
+color: #435579;
+}
+.econdnss{
+  position: absolute;
+width: 52.87vw;
+padding-top:5.90;
+left: 22.67vw;
+top: 2061px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 160%;
+/* identical to box height, or 45px */
+
+
+color: #1B2D45;
+}
+.econdwbg1{
+  position: absolute;
+width: 100vw;
+height: 900px;
+left: 0px;
+top: 2469px;
+
+background: #FFFFFF;
+}
+.econdimglink1{
+  position: absolute;
+width: 24.7vw;
+height: 500px;
+left: 8.32vw;
+top: 200px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+border-radius: 8px;
+}
+.econdimg1{
+  position: absolute;
+width: 24.7vw;
+height: 219px;
+left: 0px;
+top: 0px;
+  
+background: url(image.png);
+border-radius: 8px 8px 0px 0px;
+}
+.econdlanglab{
+  position: absolute;
+width: 11.23vw;
+height: 29px;
+left: 1.96vw;
+top: 243px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #1B2D45;
+}
+.econdlanglabtext{
+  position: absolute;
+width: 21.54vw;
+height: 132px;
+left: 1.96vw;
+top: 280px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+
+text-transform: capitalize;
+
+color: #435579;
+}
+.econdgreybg1{
+  position: absolute;
+width: 24.5vw;
+height: 43px;
+left: 0px;
+top: 457px;
+
+background: #F8F9FB;
+border-radius: 0px 0px 8px 8px;
+}
+.econdllreadmore{
+  position: absolute;
+width: 5.61vw;
+height: 16px;
+left: 9.50vw;
+top: 14px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+
+color: #164E83;
+
+}
+.econdarrow1{
+  position: absolute;
+left: 14.81vw;
+right: 8.34%;
+top: 13.67px;
+bottom: -75%;
+}
+.econdimglink2{
+  position: absolute;
+width: 24.7vw;
+height: 500px;
+left: 36.21vw;
+top: 200px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+border-radius: 8px;
+}
+.econdimglink3{
+  position: absolute;
+width: 24.7vw;
+height: 500px;
+left: 63.89vw;
+top: 200px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+border-radius: 8px;
+}
+.econddlcl2{
+  position: absolute;
+width: 25.54vw;
+height: 58px;
+left: 1.66vw;
+top: 243px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-transform: capitalize;
+
+color: #1B2D45;
+}
+
+
+</style>
+<body>
+<div class="navbar_area" display="flex">
+  <div class="iitrlogo"><img src="https://i.postimg.cc/N00rhSS4/image-18-1.png"></div>
+  <div class="line"></div>
+  <div class="dof">Department of</div>
+  <div class="deptt">Humanities and Social Sciences</div>
+  <div class="home">Home</div>
+  <div class="about">About</div>
+  <div class="academics">Academics</div>
+  <div class="research">Research</div>
+  <div class="facilities">Facilties</div>
+  <div class="events">Events</div>
+  <div class="people">People</div>
+</div>
+<div class="faclink1">Facilities ></div>
+<div class="faclinkecond">Economic Database</div>
+<div class="econdlinkhead">Economic Database</div>
+<div class="econdg1245"><img src="https://i.postimg.cc/nCPYK3F8/Group-1245.png"></img></div>
+<div class="econdg1244"><img src="https://i.postimg.cc/KRzDg6yr/Group-1244.png"></div>
+<div class="mainbuildingecondlarge"><img src="https://i.postimg.cc/ZYdDFprJ/ayaneshu-bhardwaj-Acx3-N9h-QXs-unsplash-1.png"></div>
+<div class="econdpara1">Department of Humanities and Social Sciences maintains the collection of several economic databases as an attempt to render its dedicated support to the students, researchers and faculties. This endeavour provides cutting- edge information for research and teaching in Economics. The list of databases includes the following:</div>
+<div class="mainbuildingecondsmall"><img src="https://i.postimg.cc/t4Vkdj07/ayaneshu-bhardwaj-Acx3-N9h-QXs-unsplash-2.png"></div>
+<div class="econdani">Annual Survey of Industries</div>
+<div class="econdanitext">The Annual Survey of Industries (ASI) is the principal source of industrial statistics in India. The comprehensive and detailed data obtained from ASI can be used for the estimation of the contribution of industrial sector in the State economy, and for systematic study of various structural aspects of the industry. As a continuous effort, the department has maintained the record of ASI data since 1998-99.</div>
+<div class="econdcd">Census Data</div>
+<div class="econdcdtext">This data forms the benchmark for framing of the welfare and development policies for billions of population living in India. It covers the information about population projections, density of population, the state of literacy, gender composition of population, the size and the rate of growth of population, etc. Census data on population, economic activities, migration and socio-cultural characteristics of the people is a comprehensive source of information for framing demographic policies.</div>
+<div class="econdiscom">Indiastat.com</div>
+<div class="econdiscomtext">It is a portal for country-specific, state-specific, sector-specific and region-specific, secondary level socio-economic statistical facts and figures on more than 35 variables. This online gateway includes statistics on demographics, health, higher education, agricultural and industrial production, etc. Information from specific sectors such as banking and financial institutions, companies, co-operatives, crime and law, population, foreign trade, labor and workforce, housing, media, power, and transportation are also included in this data source.</div>
+<div class="econdnss">National Sample Survey (NSS)</div>
+<div class="econdnsstext">The National Sample Survey Organization (NSSO) has been conducting nationwide sample surveys on various socio-economic aspects since 1950. These surveys are conducted in the form of rounds extending normally over a period of one year. Each NSS round provides data on the state-wise as well as district- wise estimates on certain socio-economic indicators. The various rounds conducted by NSSO cover major areas such as employment-unemployment; unorganized enterprises in non-agricultural sectors; population, births, deaths, disability, morbidity, fertility, maternity & child care, and family planning; land holdings and livestock enterprises; and debt, investment and capital formation; etc. The department has kept stock of the National Sample Survey (NSS) unit-level record data till the 68th Round.</div>
+<div class="econdwbg1" display="flex">
+  <div class="econdimglink1">
+    <div class="econdimg1"><img src="https://i.postimg.cc/QC1dDmHX/image-27.png">
+    </div>
+    <div class="econdlanglab">Language Lab</div>
+    <div class="econdlanglabtext">In a globalized world where high proficiency of English is a pre-requisite for professional success, the state-of-the-art Language Laboratory at the department of Humanities & Social Sciences helps the undergraduate and post-graduate students of IIT acquire advanc...</div>
+    <div class="econdgreybg1">
+      <div class="econdllreadmore">Read More</div>
+      <div class="econdarrow1"><img src="https://i.postimg.cc/pLnqHnBs/Vector-3.png"></div>
+    </div>
+  </div>
+  <div class="econdimglink2">
+    <div class="econdimg1"><img src="https://i.postimg.cc/QC1dDmHX/image-27.png">
+    </div>
+    <div class="econddlcl2">Dedicated Library, Computer Lab</div>
+    <div class="econdlanglabtext">In a globalized world where high proficiency of English is a pre-requisite for professional success, the state-of-the-art Language Laboratory at the department of Humanities & Social Sciences helps the undergraduate and post-graduate students of IIT acquire advanc...</div>
+    <div class="econdgreybg1">
+      <div class="econdllreadmore">Read More</div>
+      <div class="econdarrow1"><img src="https://i.postimg.cc/pLnqHnBs/Vector-3.png"></div>
+    </div>
+  </div>
+  <div class="econdimglink3">
+    <div class="econdimg1"><img src="https://i.postimg.cc/QC1dDmHX/image-27.png">
+    </div>
+    <div class="econdlanglab">Psychology Lab</div>
+    <div class="econdlanglabtext">In a globalized world where high proficiency of English is a pre-requisite for professional success, the state-of-the-art Language Laboratory at the department of Humanities & Social Sciences helps the undergraduate and post-graduate students of IIT acquire advanc...</div>
+    <div class="econdgreybg1">
+      <div class="econdllreadmore">Read More</div>
+      <div class="econdarrow1"><img src="https://i.postimg.cc/pLnqHnBs/Vector-3.png"></div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
